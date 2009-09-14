@@ -102,7 +102,7 @@ eval {
 };
 
 if ($@ =~ /bind/) {
-  die "ERROR: something went wrong, maybe you are not root?\n";
+  die "ERROR: something went wrong. maybe you are not root? or something is busy on port 179?\n";
 } else {
   die "$@";
 }
