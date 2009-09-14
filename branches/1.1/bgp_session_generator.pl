@@ -119,7 +119,7 @@ sub VERSION_MESSAGE {
 
   my $fh = shift; 
 
-  print $fh "version 1.2\n";
+  print $fh "version 1.1\n";
 
 }
 
